@@ -3,15 +3,21 @@ Author: Arun Chunduru
 
 This is to create / update the LexBot in AWS Environment. Follow the below steps,
 
-Step-1: "aws configure" with valid credentials
+Step-1: 
 
-Step-2: Create the following directory structure,
+        "aws configure" with valid credentials
+
+Step-2: 
+
+        Create the following directory structure,
 
         /home/ec2-user/LexImport/lexImport_py36.py
         /home/ec2-user/LexConfig/Sutantra.json
         /home/ec2-user/Completed
         
-Step-3: Run the python script,
+Step-3: 
+
+        Run the python script,
 
         python lexImport_py36.py <<Region>>
         
