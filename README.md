@@ -17,7 +17,8 @@ Step-3: Run the python script,
         
         Example: python lexImport_py36.py us-east-1
         
-Note:  This script will create the Slot, Intents, Alias, LexBot and Builds it.
+Note:  
+       This script will create the Slot, Intents, Alias, LexBot and Builds it.
        If you want to publish the Bot, we need to make one more Boto3 call.
        i.e. create_bot_version. It expects BOT Name and CheckSum of the Bot as
        Arguments.
