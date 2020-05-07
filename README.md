@@ -32,5 +32,11 @@ Note:
        
        Checksum needs to be extracted from Bot and Bot Name can be get from the
        Variable "bot". (Check Lines 175 & 176)
+       
+Note:
+
+       If we want this BOT to be integrated with Slack or Facebook, we need to
+       Create the Application and establish the credentials generated in Slack
+       Into AWS Lex Channel configuration and access the Bot via Alias.
 
    
